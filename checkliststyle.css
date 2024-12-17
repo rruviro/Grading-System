@@ -1,0 +1,94 @@
+body {
+    font-family: Georgia, serif;
+    margin: 1;
+    padding: 1;
+}
+
+header {
+    background-color: #3e6a48;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right;
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right; /* Changed from "text-align: center;" */
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 250px;
+    width: 200px;
+    height: 230px;
+}
+
+.search-box {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-family: Georgia, serif;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Table style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Alternate row color */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Strong emphasis for headers */
+td[colspan="3"] strong {
+    font-weight: bold;
+}
+
+/* Strong emphasis for total rows */
+tfoot td {
+    font-weight: bold;
+}
